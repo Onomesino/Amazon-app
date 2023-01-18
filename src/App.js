@@ -1,14 +1,13 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import Header from './Header';
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hey there, I'm cloning amazon 🥳</h1>
-      {/* Header */}
-      {/* Home */}
-      
+    <div>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
